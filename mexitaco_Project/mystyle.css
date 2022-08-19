@@ -1,0 +1,285 @@
+    body {
+        background-color: papayawhip;
+        margin: 0;
+        padding: 0;
+    }
+    
+    td,
+    th,
+    li,
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    thead,
+    tfoot {
+        background-color: #c72f42;
+    }
+    
+    .img1 {
+        width: 80px;
+        float: left;
+        padding-left: 10%;
+        margin-top: -1%;
+    }
+    
+    nav {
+        list-style-type: none;
+        overflow: hidden;
+    }
+    
+    #menuBar li {
+        display: inline;
+    }
+    
+    #menuBar li a {
+        text-align: center;
+        overflow: hidden;
+        margin-right: 10%;
+        color: white;
+        text-decoration: none;
+    }
+    
+    #menuBar li a:hover {
+        color: papayawhip;
+    }
+    
+    .theGroup a:hover {
+        color: papayawhip;
+    }
+    
+    #ContactBar li {
+        display: inline;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .contact {
+        width: 20px;
+        height: 20px;
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    
+    .theGroup a {
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-decoration: none;
+    }
+    
+    table {
+        width: 100%;
+    }
+    
+    #quote,
+    #Welcome {
+        color: #4b4978;
+        margin-top: 2%;
+        margin-bottom: 2.7%;
+        text-align: center;
+    }
+    
+    #Title {
+        font-size: 200%;
+        color: #4b4978;
+        margin-top: 4%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    
+    #about {
+        background-color: #E8AF2B;
+        height: 100px;
+        font-size: 140%;
+        color: #5E4A79;
+        margin-top: 1%;
+        margin-bottom: 1.5%;
+        padding-top: 1%;
+        text-align: center;
+    }
+    
+    .titelMenu {
+        font-weight: bolder;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    
+    .nameMeal {
+        font-weight: bolder;
+        font-size: 20px;
+        color: #f67632;
+        list-style-type: none;
+        margin-left: 15%;
+        margin-top: 1%;
+    }
+    
+    .description {
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+        list-style-type: none;
+    }
+    
+    .cal {
+        font-size: 10px;
+        font-weight: bold;
+        color: #3f865d;
+        list-style-type: none;
+    }
+    
+    .price {
+        display: block;
+        font-size: 18px;
+        padding-top: 57px;
+        font-weight: bold;
+        color: #f67632;
+        margin-left: -350%;
+    }
+    
+    .priceD {
+        display: block;
+        font-size: 18px;
+        padding-top: 40px;
+        font-weight: bold;
+        color: #f67632;
+        margin-left: -350%;
+    }
+    
+    .slideshow {
+        border: 3px solid #f67632;
+        overflow: hidden;
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    
+    .slide-wrapper {
+        width: 3000px;
+        animation: slide 10s infinite;
+    }
+    
+    .image-container {
+        margin-top: 0;
+        float: left;
+        width: 500px;
+        height: 500px;
+    }
+    
+    .image-container:nth-child(1) {
+        background-image: url("offer1.png");
+        height: 500px;
+    }
+    
+    .image-container:nth-child(2) {
+        background-image: url("offer2.png");
+    }
+    
+    .image-container:nth-child(3) {
+        background-image: url("offer3.png");
+    }
+    
+    @keyframes slide {
+        40% {
+            margin-left: 0px;
+        }
+        70% {
+            margin-left: -500px;
+        }
+        90% {
+            margin-left: -1000px;
+        }
+    }
+    
+    input[type=text],
+    input[type=password],
+    select,
+    textarea {
+        width: 40%;
+        padding: 12px;
+        border: 1px solid #c72f42;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-left: 3%;
+        margin-right: 20%;
+    }
+    
+    select {
+        margin-left: 4.4%;
+    }
+    
+    input[type=text] .email {
+        margin-left: 10.4%;
+    }
+    
+    input:hover,
+    select:hover,
+    textarea:hover,
+    button:hover {
+        background-color: #45a049;
+    }
+    
+    button {
+        background-color: #c72f42;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        margin-left: 47%;
+        border: none;
+        cursor: pointer;
+        width: 10%;
+        border-radius: 4px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #signup {
+        margin-left: 37%;
+    }
+    
+    #login {
+        margin-left: 37%;
+        margin-top: 4.8%;
+    }
+    
+    #cancel {
+        margin-left: 5%;
+    }
+    
+    #psw {
+        color: #4b4978;
+        text-decoration: none;
+        margin-left: 38%;
+    }
+    
+    #psw:hover {
+        color: #c72f42;
+    }
+    
+    label {
+        color: #4b4978;
+        font-weight: bold;
+        margin-left: 20%;
+    }
+    
+    #username {
+        margin-left: 2.5%;
+    }
+    
+    #email {
+        margin-left: 4.4%;
+    }
+    
+    #subject {
+        margin-left: 29%;
+        margin-top: 1%;
+    }
+    
+    #desc {
+        padding-left: 20%;
+        padding-right: 20%;
+    }

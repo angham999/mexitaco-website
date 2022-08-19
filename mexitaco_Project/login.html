@@ -1,0 +1,98 @@
+<! DOCTYPE html>
+<html>
+
+<head>
+    <title>MéxiTaco-Login</title>
+    <!--conactusPage-->
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myscript.js"></script>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <img src="logo_bar.png" alt="restaurant logo" class="img1">
+                    <nav id="menuBar">
+                        <ul>
+                            <li><a href='index.html'>HOME</a></li>
+                            <li><a href='menu.html'>MENU</a></li>
+                            <li><a href='contactus.html'>CONTACT US</a></li>
+                            <li><a href='about.html'>ABOUT</a></li>
+                            <li><a href='register.html'>SIGNIN</a></li>
+                            <li><a href='#'>LOGIN</a></li>
+                        </ul>
+                    </nav>
+                </th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <th>
+                    <nav id="ContactBar">
+                        <ul>
+                            <li>VISIT US</li>
+                            <li>
+                                <a href="https://goo.gl/maps/yZn73jDQN4ALWGcQA"><img src="google-maps.png" alt="map" class="contact"></a>
+                            </li>
+                            <li>
+                                <a href="callto:0112342100"><img src="call.png" alt="call" class="contact"></a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@mexika.com.sa"><img src="email.png" alt="mail" class="contact"></a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/mexikakitchen?utm_medium=copy_link"><img src="instagram.png" alt="instagram" class="contact"></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/mexikakitchen?s=11"><img src="twitter.png" alt="twitter" class="contact"></a>
+                            </li>
+                            <li>&copy; MéxiTaco | by:&ensp;</li>
+                            <li class="theGroup"><a href='mailto:jbaqays@stu.kau.edu.sa'>Jana,</a></li>
+                            <li class="theGroup"><a href='mailto:Amohammed0272@stu.kau.edu.sa'>Angham,</a></li>
+                            <li class="theGroup"><a href='mailto:malmalki0645@stu.kau.edu.sa'>Maram,</a></li>
+                            <li class="theGroup"><a href='mailto:Aghamdi0079@stu.kau.edu.sa'>Atheer</a></li>
+                        </ul>
+                    </nav>
+                </th>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td>
+                    <center><img src="logo-login.png" alt="Login logo" width="300" height="300"></center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="myphpLog.php" method="post">
+
+                        <div class="container">
+                            <p><label for="name"><b>Username:</b></label>
+                                <input id="username" type="text" onfocus="focusFunction()" onblur="blurFunction()"placeholder="Enter Username" name="name" required>
+
+                            </p>
+
+                            <p><label for="pass"><b>Password:</b></label>
+                                <input id="passWord" type="password"  onfocus="focusFunction()" onblur="blurFunction()"  placeholder="Enter Password" name="pass" required>
+                            </p>
+
+                            <button type="submit" id="login" name="submitLOG" value="Send" onclick="confirmSubmit()">Login</button>
+                            <button type="reset" id="cancel" value="Reset" onclick="confirmReset()">Cancel</button>
+                            <br>
+                            <a id="psw" href="#">Forgot password?</a>
+                        </div>
+                    </form>
+
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
